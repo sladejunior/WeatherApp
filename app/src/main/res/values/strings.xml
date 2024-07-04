@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="show_weather">Показать погоду</string>
+    <string name="input_city">ВВЕДИТЕ НАЗВАНИЕ ГОРОДА(АНГЛИЙСКИЙ) ИЛИ ЕГО ИНДЕКС</string>
+</resources>
