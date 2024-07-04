@@ -31,8 +31,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
-    private final String WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?q=%s&appid=520261f5720c795ae8e7b7ab616e5ed9&lang=ru&units=metric";
-    private final String WEATHER_URL_LAT_LON = "https://api.openweathermap.org/data/2.5/weather?lat=%s&lon=%s&appid=520261f5720c795ae8e7b7ab616e5ed9&lang=ru&units=metric";
+    private final String WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?q=%s&appid=/*id here*/&lang=ru&units=metric";
+    private final String WEATHER_URL_LAT_LON = "https://api.openweathermap.org/data/2.5/weather?lat=%s&lon=%s&appid=/* id here */&lang=ru&units=metric";
 
     private EditText editTextCity;
     private TextView textViewWeather;
